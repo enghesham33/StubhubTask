@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C7A786289F176D005AC28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A785289F176D005AC28D /* AppDelegate.swift */; };
+		00C7A788289F176D005AC28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A787289F176D005AC28D /* SceneDelegate.swift */; };
+		00C7A78D289F176D005AC28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A78B289F176D005AC28D /* Main.storyboard */; };
+		00C7A78F289F176F005AC28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A78E289F176F005AC28D /* Assets.xcassets */; };
+		00C7A792289F176F005AC28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A790289F176F005AC28D /* LaunchScreen.storyboard */; };
+		00C7A79D289F176F005AC28D /* StubhubTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */; };
+		00C7A7A7289F176F005AC28D /* StubhubTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */; };
+		00C7A7A9289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */; };
+		00C7A7DF289F190D005AC28D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7B7289F190C005AC28D /* Enums.swift */; };
+		00C7A7E0289F190D005AC28D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7B8289F190C005AC28D /* Observable.swift */; };
+		00C7A7E3289F190D005AC28D /* JsonFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7BD289F190C005AC28D /* JsonFileManager.swift */; };
+		00C7A7E5289F190D005AC28D /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C1289F190C005AC28D /* BaseVC.swift */; };
+		00C7A7E6289F190D005AC28D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C2289F190C005AC28D /* BaseViewModel.swift */; };
+		00C7A7E7289F190D005AC28D /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C5289F190C005AC28D /* EventsViewModel.swift */; };
+		00C7A7E8289F190D005AC28D /* EventsInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C7289F190C005AC28D /* EventsInjector.swift */; };
+		00C7A7E9289F190D005AC28D /* EventsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7CA289F190C005AC28D /* EventsRepository.swift */; };
+		00C7A7EB289F190D005AC28D /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7CE289F190C005AC28D /* Events.storyboard */; };
+		00C7A7F1289F190D005AC28D /* EventsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7D8289F190C005AC28D /* EventsListVC.swift */; };
+		00C7A7F2289F190D005AC28D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7DA289F190C005AC28D /* Event.swift */; };
+		00C7A7F4289F190D005AC28D /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7DC289F190C005AC28D /* Child.swift */; };
+		00C7A7F9289F1CF9005AC28D /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7F8289F1CF9005AC28D /* events.json */; };
+		00C7A7FC289F2431005AC28D /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7FA289F2431005AC28D /* EventCell.swift */; };
+		00C7A7FD289F2431005AC28D /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7FB289F2431005AC28D /* EventCell.xib */; };
+		13F9D863F1F387FB4B6E075E /* Pods_StubhubTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */; };
+		8B8322E18F5D4D6A870D7D7D /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */; };
+		BBC3B6129E247961CF51D4EF /* Pods_StubhubTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C7A799289F176F005AC28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C7A77A289F176D005AC28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C7A781289F176D005AC28D;
+			remoteInfo = StubhubTask;
+		};
+		00C7A7A3289F176F005AC28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C7A77A289F176D005AC28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C7A781289F176D005AC28D;
+			remoteInfo = StubhubTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C7A782289F176D005AC28D /* StubhubTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubhubTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C7A785289F176D005AC28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00C7A787289F176D005AC28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00C7A78C289F176D005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C7A78E289F176F005AC28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C7A791289F176F005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C7A793289F176F005AC28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskTests.swift; sourceTree = "<group>"; };
+		00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITests.swift; sourceTree = "<group>"; };
+		00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00C7A7B7289F190C005AC28D /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		00C7A7B8289F190C005AC28D /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		00C7A7BD289F190C005AC28D /* JsonFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonFileManager.swift; sourceTree = "<group>"; };
+		00C7A7C1289F190C005AC28D /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		00C7A7C2289F190C005AC28D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		00C7A7C5289F190C005AC28D /* EventsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		00C7A7C7289F190C005AC28D /* EventsInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInjector.swift; sourceTree = "<group>"; };
+		00C7A7CA289F190C005AC28D /* EventsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsRepository.swift; sourceTree = "<group>"; };
+		00C7A7CF289F190C005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Events.storyboard; sourceTree = "<group>"; };
+		00C7A7D8289F190C005AC28D /* EventsListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListVC.swift; sourceTree = "<group>"; };
+		00C7A7DA289F190C005AC28D /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		00C7A7DC289F190C005AC28D /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		00C7A7F8289F1CF9005AC28D /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		00C7A7FA289F2431005AC28D /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		00C7A7FB289F2431005AC28D /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.release.xcconfig"; sourceTree = "<group>"; };
+		73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask_StubhubTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C7A77F289F176D005AC28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F9D863F1F387FB4B6E075E /* Pods_StubhubTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A795289F176F005AC28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC3B6129E247961CF51D4EF /* Pods_StubhubTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A79F289F176F005AC28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8322E18F5D4D6A870D7D7D /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C7A779289F176D005AC28D = {
+			isa = PBXGroup;
+			children = (
+				00C7A784289F176D005AC28D /* StubhubTask */,
+				00C7A79B289F176F005AC28D /* StubhubTaskTests */,
+				00C7A7A5289F176F005AC28D /* StubhubTaskUITests */,
+				00C7A783289F176D005AC28D /* Products */,
+				7020F74F964E0D907A03B724 /* Pods */,
+				1F830A8DF71BE0120D4CF8C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00C7A783289F176D005AC28D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A782289F176D005AC28D /* StubhubTask.app */,
+				00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */,
+				00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C7A784289F176D005AC28D /* StubhubTask */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A785289F176D005AC28D /* AppDelegate.swift */,
+				00C7A787289F176D005AC28D /* SceneDelegate.swift */,
+				00C7A7C0289F190C005AC28D /* Base */,
+				00C7A7D9289F190C005AC28D /* Models */,
+				00C7A7C3289F190C005AC28D /* Events */,
+				00C7A7BC289F190C005AC28D /* JsonFileManager */,
+				00C7A7B5289F190C005AC28D /* Utils */,
+				00C7A78B289F176D005AC28D /* Main.storyboard */,
+				00C7A7F8289F1CF9005AC28D /* events.json */,
+				00C7A78E289F176F005AC28D /* Assets.xcassets */,
+				00C7A790289F176F005AC28D /* LaunchScreen.storyboard */,
+				00C7A793289F176F005AC28D /* Info.plist */,
+			);
+			path = StubhubTask;
+			sourceTree = "<group>";
+		};
+		00C7A79B289F176F005AC28D /* StubhubTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */,
+			);
+			path = StubhubTaskTests;
+			sourceTree = "<group>";
+		};
+		00C7A7A5289F176F005AC28D /* StubhubTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */,
+				00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */,
+			);
+			path = StubhubTaskUITests;
+			sourceTree = "<group>";
+		};
+		00C7A7B5289F190C005AC28D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7B7289F190C005AC28D /* Enums.swift */,
+				00C7A7B8289F190C005AC28D /* Observable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		00C7A7BC289F190C005AC28D /* JsonFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7BD289F190C005AC28D /* JsonFileManager.swift */,
+			);
+			path = JsonFileManager;
+			sourceTree = "<group>";
+		};
+		00C7A7C0289F190C005AC28D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7C1289F190C005AC28D /* BaseVC.swift */,
+				00C7A7C2289F190C005AC28D /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		00C7A7C3289F190C005AC28D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7C4289F190C005AC28D /* ViewModels */,
+				00C7A7C6289F190C005AC28D /* DI */,
+				00C7A7C8289F190C005AC28D /* Repositories */,
+				00C7A7CD289F190C005AC28D /* Views */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		00C7A7C4289F190C005AC28D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7C5289F190C005AC28D /* EventsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		00C7A7C6289F190C005AC28D /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7C7289F190C005AC28D /* EventsInjector.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		00C7A7C8289F190C005AC28D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7C9289F190C005AC28D /* EventsRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		00C7A7C9289F190C005AC28D /* EventsRepository */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7CA289F190C005AC28D /* EventsRepository.swift */,
+			);
+			path = EventsRepository;
+			sourceTree = "<group>";
+		};
+		00C7A7CD289F190C005AC28D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7CE289F190C005AC28D /* Events.storyboard */,
+				00C7A7D2289F190C005AC28D /* EventsList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00C7A7D2289F190C005AC28D /* EventsList */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7D3289F190C005AC28D /* Cells */,
+				00C7A7D8289F190C005AC28D /* EventsListVC.swift */,
+			);
+			path = EventsList;
+			sourceTree = "<group>";
+		};
+		00C7A7D3289F190C005AC28D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7FA289F2431005AC28D /* EventCell.swift */,
+				00C7A7FB289F2431005AC28D /* EventCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00C7A7D9289F190C005AC28D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00C7A7DA289F190C005AC28D /* Event.swift */,
+				00C7A7DC289F190C005AC28D /* Child.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F830A8DF71BE0120D4CF8C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */,
+				C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */,
+				3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7020F74F964E0D907A03B724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */,
+				5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */,
+				55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */,
+				2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */,
+				0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */,
+				AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C7A781289F176D005AC28D /* StubhubTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C7A7AC289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTask" */;
+			buildPhases = (
+				1D1683014154D7E0C6F2C90D /* [CP] Check Pods Manifest.lock */,
+				00C7A77E289F176D005AC28D /* Sources */,
+				00C7A77F289F176D005AC28D /* Frameworks */,
+				00C7A780289F176D005AC28D /* Resources */,
+				34F95251078084F210D54A5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StubhubTask;
+			productName = StubhubTask;
+			productReference = 00C7A782289F176D005AC28D /* StubhubTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00C7A797289F176F005AC28D /* StubhubTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C7A7AF289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */;
+			buildPhases = (
+				EB0B827343EF2F460C587C9A /* [CP] Check Pods Manifest.lock */,
+				00C7A794289F176F005AC28D /* Sources */,
+				00C7A795289F176F005AC28D /* Frameworks */,
+				00C7A796289F176F005AC28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C7A79A289F176F005AC28D /* PBXTargetDependency */,
+			);
+			name = StubhubTaskTests;
+			productName = StubhubTaskTests;
+			productReference = 00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00C7A7A1289F176F005AC28D /* StubhubTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C7A7B2289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */;
+			buildPhases = (
+				70FA52D93BAF478E05F78194 /* [CP] Check Pods Manifest.lock */,
+				00C7A79E289F176F005AC28D /* Sources */,
+				00C7A79F289F176F005AC28D /* Frameworks */,
+				00C7A7A0289F176F005AC28D /* Resources */,
+				D155CE4526B65B4C7BC84170 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C7A7A4289F176F005AC28D /* PBXTargetDependency */,
+			);
+			name = StubhubTaskUITests;
+			productName = StubhubTaskUITests;
+			productReference = 00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C7A77A289F176D005AC28D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					00C7A781289F176D005AC28D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					00C7A797289F176F005AC28D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 00C7A781289F176D005AC28D;
+					};
+					00C7A7A1289F176F005AC28D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 00C7A781289F176D005AC28D;
+					};
+				};
+			};
+			buildConfigurationList = 00C7A77D289F176D005AC28D /* Build configuration list for PBXProject "StubhubTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C7A779289F176D005AC28D;
+			productRefGroup = 00C7A783289F176D005AC28D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C7A781289F176D005AC28D /* StubhubTask */,
+				00C7A797289F176F005AC28D /* StubhubTaskTests */,
+				00C7A7A1289F176F005AC28D /* StubhubTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C7A780289F176D005AC28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7A792289F176F005AC28D /* LaunchScreen.storyboard in Resources */,
+				00C7A7F9289F1CF9005AC28D /* events.json in Resources */,
+				00C7A78F289F176F005AC28D /* Assets.xcassets in Resources */,
+				00C7A78D289F176D005AC28D /* Main.storyboard in Resources */,
+				00C7A7EB289F190D005AC28D /* Events.storyboard in Resources */,
+				00C7A7FD289F2431005AC28D /* EventCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A796289F176F005AC28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A7A0289F176F005AC28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D1683014154D7E0C6F2C90D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F95251078084F210D54A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FA52D93BAF478E05F78194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-StubhubTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D155CE4526B65B4C7BC84170 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB0B827343EF2F460C587C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StubhubTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C7A77E289F176D005AC28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7A7E6289F190D005AC28D /* BaseViewModel.swift in Sources */,
+				00C7A7F4289F190D005AC28D /* Child.swift in Sources */,
+				00C7A7DF289F190D005AC28D /* Enums.swift in Sources */,
+				00C7A7E9289F190D005AC28D /* EventsRepository.swift in Sources */,
+				00C7A7E0289F190D005AC28D /* Observable.swift in Sources */,
+				00C7A7FC289F2431005AC28D /* EventCell.swift in Sources */,
+				00C7A786289F176D005AC28D /* AppDelegate.swift in Sources */,
+				00C7A7E7289F190D005AC28D /* EventsViewModel.swift in Sources */,
+				00C7A7E3289F190D005AC28D /* JsonFileManager.swift in Sources */,
+				00C7A788289F176D005AC28D /* SceneDelegate.swift in Sources */,
+				00C7A7F1289F190D005AC28D /* EventsListVC.swift in Sources */,
+				00C7A7E5289F190D005AC28D /* BaseVC.swift in Sources */,
+				00C7A7F2289F190D005AC28D /* Event.swift in Sources */,
+				00C7A7E8289F190D005AC28D /* EventsInjector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A794289F176F005AC28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7A79D289F176F005AC28D /* StubhubTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C7A79E289F176F005AC28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C7A7A7289F176F005AC28D /* StubhubTaskUITests.swift in Sources */,
+				00C7A7A9289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C7A79A289F176F005AC28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C7A781289F176D005AC28D /* StubhubTask */;
+			targetProxy = 00C7A799289F176F005AC28D /* PBXContainerItemProxy */;
+		};
+		00C7A7A4289F176F005AC28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C7A781289F176D005AC28D /* StubhubTask */;
+			targetProxy = 00C7A7A3289F176F005AC28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00C7A78B289F176D005AC28D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C7A78C289F176D005AC28D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00C7A790289F176F005AC28D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C7A791289F176F005AC28D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00C7A7CE289F190C005AC28D /* Events.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C7A7CF289F190C005AC28D /* Base */,
+			);
+			name = Events.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C7A7AA289F176F005AC28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00C7A7AB289F176F005AC28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C7A7AD289F176F005AC28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StubhubTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00C7A7AE289F176F005AC28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StubhubTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00C7A7B0289F176F005AC28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StubhubTask.app/StubhubTask";
+			};
+			name = Debug;
+		};
+		00C7A7B1289F176F005AC28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StubhubTask.app/StubhubTask";
+			};
+			name = Release;
+		};
+		00C7A7B3289F176F005AC28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StubhubTask;
+			};
+			name = Debug;
+		};
+		00C7A7B4289F176F005AC28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stubhub.StubhubTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StubhubTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C7A77D289F176D005AC28D /* Build configuration list for PBXProject "StubhubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C7A7AA289F176F005AC28D /* Debug */,
+				00C7A7AB289F176F005AC28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C7A7AC289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C7A7AD289F176F005AC28D /* Debug */,
+				00C7A7AE289F176F005AC28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C7A7AF289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C7A7B0289F176F005AC28D /* Debug */,
+				00C7A7B1289F176F005AC28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C7A7B2289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C7A7B3289F176F005AC28D /* Debug */,
+				00C7A7B4289F176F005AC28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C7A77A289F176D005AC28D /* Project object */;
+}
