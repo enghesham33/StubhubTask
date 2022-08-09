@@ -9,8 +9,6 @@ import Foundation
 
 class EventsViewModel: BaseViewModel, ObservableObject {
     
-    var eventsList = Observable<[Event]>([])
-    var filteredEventsList = Observable<[Event]>([])
     @Published private(set) var events: [Event] = []
     @Published private(set) var filteredEvents: [Event] = []
     
@@ -22,26 +20,14 @@ class EventsViewModel: BaseViewModel, ObservableObject {
     var filterOperation = FilterOperation.OR
     var isFilterApplied = false
     
-    func getEvents() async {
-        loading.value = true
-        repository.getEventsList { [weak self] events in
-            self?.events = events
-            self?.loading.value = false
-        } faildHandler: { [weak self] error in
-            self?.error.value = error ?? ""
-            self?.loading.value = false
-        }
-    }
-    
     func getEvents() {
-        loading.value = true
+        loading = true
         repository.getEventsList { [weak self] events in
-            self?.eventsList.value = events
             self?.events = events
-            self?.loading.value = false
+            self?.loading = false
         } faildHandler: { [weak self] error in
-            self?.error.value = error ?? ""
-            self?.loading.value = false
+            self?.error = error ?? ""
+            self?.loading = false
         }
     }
     

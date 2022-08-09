@@ -104,8 +104,6 @@ struct EventsView: View {
             }
             List(viewModel.isFilterApplied ? viewModel.filteredEvents : viewModel.events) { event in
                 EventCellView(event: event)
-            }.refreshable {
-               await viewModel.getEvents()
             }
         })
           

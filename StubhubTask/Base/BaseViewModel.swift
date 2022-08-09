@@ -8,6 +8,6 @@
 import Foundation
 
 class BaseViewModel {
-    var loading: Observable<Bool> = Observable(false)
-    var error: Observable<String> = Observable("")
+    @Published var loading = false
+    @Published var error = ""
 }
