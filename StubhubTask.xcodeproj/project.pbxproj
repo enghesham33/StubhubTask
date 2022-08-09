@@ -7,300 +7,291 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C7A786289F176D005AC28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A785289F176D005AC28D /* AppDelegate.swift */; };
-		00C7A788289F176D005AC28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A787289F176D005AC28D /* SceneDelegate.swift */; };
-		00C7A78D289F176D005AC28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A78B289F176D005AC28D /* Main.storyboard */; };
-		00C7A78F289F176F005AC28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A78E289F176F005AC28D /* Assets.xcassets */; };
-		00C7A792289F176F005AC28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A790289F176F005AC28D /* LaunchScreen.storyboard */; };
-		00C7A79D289F176F005AC28D /* StubhubTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */; };
-		00C7A7A7289F176F005AC28D /* StubhubTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */; };
-		00C7A7A9289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */; };
-		00C7A7DF289F190D005AC28D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7B7289F190C005AC28D /* Enums.swift */; };
-		00C7A7E0289F190D005AC28D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7B8289F190C005AC28D /* Observable.swift */; };
-		00C7A7E3289F190D005AC28D /* JsonFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7BD289F190C005AC28D /* JsonFileManager.swift */; };
-		00C7A7E5289F190D005AC28D /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C1289F190C005AC28D /* BaseVC.swift */; };
-		00C7A7E6289F190D005AC28D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C2289F190C005AC28D /* BaseViewModel.swift */; };
-		00C7A7E7289F190D005AC28D /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C5289F190C005AC28D /* EventsViewModel.swift */; };
-		00C7A7E8289F190D005AC28D /* EventsInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7C7289F190C005AC28D /* EventsInjector.swift */; };
-		00C7A7E9289F190D005AC28D /* EventsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7CA289F190C005AC28D /* EventsRepository.swift */; };
-		00C7A7EB289F190D005AC28D /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7CE289F190C005AC28D /* Events.storyboard */; };
-		00C7A7F1289F190D005AC28D /* EventsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7D8289F190C005AC28D /* EventsListVC.swift */; };
-		00C7A7F2289F190D005AC28D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7DA289F190C005AC28D /* Event.swift */; };
-		00C7A7F4289F190D005AC28D /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7DC289F190C005AC28D /* Child.swift */; };
-		00C7A7F9289F1CF9005AC28D /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7F8289F1CF9005AC28D /* events.json */; };
-		00C7A7FC289F2431005AC28D /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7A7FA289F2431005AC28D /* EventCell.swift */; };
-		00C7A7FD289F2431005AC28D /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C7A7FB289F2431005AC28D /* EventCell.xib */; };
-		13F9D863F1F387FB4B6E075E /* Pods_StubhubTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */; };
-		8B8322E18F5D4D6A870D7D7D /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */; };
-		BBC3B6129E247961CF51D4EF /* Pods_StubhubTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */; };
+		00917D5A28A2656D0079C325 /* StubhubTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D5928A2656D0079C325 /* StubhubTaskApp.swift */; };
+		00917D5E28A2656E0079C325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00917D5D28A2656E0079C325 /* Assets.xcassets */; };
+		00917D6128A2656E0079C325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00917D6028A2656E0079C325 /* Preview Assets.xcassets */; };
+		00917D6B28A2656E0079C325 /* StubhubTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D6A28A2656E0079C325 /* StubhubTaskTests.swift */; };
+		00917D7528A2656F0079C325 /* StubhubTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D7428A2656F0079C325 /* StubhubTaskUITests.swift */; };
+		00917D7728A2656F0079C325 /* StubhubTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D7628A2656F0079C325 /* StubhubTaskUITestsLaunchTests.swift */; };
+		00917D9E28A26AD80079C325 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D8428A26AD70079C325 /* Enums.swift */; };
+		00917DA028A26AD80079C325 /* JsonFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D8728A26AD70079C325 /* JsonFileManager.swift */; };
+		00917DA128A26AD80079C325 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D8A28A26AD70079C325 /* EventsViewModel.swift */; };
+		00917DA228A26AD80079C325 /* EventsInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D8C28A26AD70079C325 /* EventsInjector.swift */; };
+		00917DA328A26AD80079C325 /* EventsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D8F28A26AD80079C325 /* EventsRepository.swift */; };
+		00917DAA28A26AD80079C325 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D9C28A26AD80079C325 /* Event.swift */; };
+		00917DAB28A26AD80079C325 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917D9D28A26AD80079C325 /* Child.swift */; };
+		00917DB028A272490079C325 /* EventCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917DAF28A272490079C325 /* EventCellView.swift */; };
+		00917DB228A2858E0079C325 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 00917DB128A2858E0079C325 /* events.json */; };
+		00917DB428A285F90079C325 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917DB328A285F90079C325 /* EventsView.swift */; };
+		00917DB928A288ED0079C325 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917DB828A288ED0079C325 /* BaseViewModel.swift */; };
+		00917DBB28A288FE0079C325 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00917DBA28A288FE0079C325 /* Observable.swift */; };
+		04D0A6D9DEFFC1109D7D7E56 /* Pods_StubhubTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AA5A04E9F0DAE510EDFA68 /* Pods_StubhubTask.framework */; };
+		A06214B53B89928C4F2B4370 /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C833B16D9303D5CD50B2315 /* Pods_StubhubTask_StubhubTaskUITests.framework */; };
+		F4C5CDBDED6F7BB43A14FC1C /* Pods_StubhubTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A2F52E4C336F4A05C90C55 /* Pods_StubhubTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00C7A799289F176F005AC28D /* PBXContainerItemProxy */ = {
+		00917D6728A2656E0079C325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00C7A77A289F176D005AC28D /* Project object */;
+			containerPortal = 00917D4E28A2656D0079C325 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00C7A781289F176D005AC28D;
+			remoteGlobalIDString = 00917D5528A2656D0079C325;
 			remoteInfo = StubhubTask;
 		};
-		00C7A7A3289F176F005AC28D /* PBXContainerItemProxy */ = {
+		00917D7128A2656F0079C325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00C7A77A289F176D005AC28D /* Project object */;
+			containerPortal = 00917D4E28A2656D0079C325 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00C7A781289F176D005AC28D;
+			remoteGlobalIDString = 00917D5528A2656D0079C325;
 			remoteInfo = StubhubTask;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C7A782289F176D005AC28D /* StubhubTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubhubTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C7A785289F176D005AC28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00C7A787289F176D005AC28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00C7A78C289F176D005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00C7A78E289F176F005AC28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00C7A791289F176F005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00C7A793289F176F005AC28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskTests.swift; sourceTree = "<group>"; };
-		00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITests.swift; sourceTree = "<group>"; };
-		00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		00C7A7B7289F190C005AC28D /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		00C7A7B8289F190C005AC28D /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
-		00C7A7BD289F190C005AC28D /* JsonFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonFileManager.swift; sourceTree = "<group>"; };
-		00C7A7C1289F190C005AC28D /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		00C7A7C2289F190C005AC28D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
-		00C7A7C5289F190C005AC28D /* EventsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
-		00C7A7C7289F190C005AC28D /* EventsInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInjector.swift; sourceTree = "<group>"; };
-		00C7A7CA289F190C005AC28D /* EventsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsRepository.swift; sourceTree = "<group>"; };
-		00C7A7CF289F190C005AC28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Events.storyboard; sourceTree = "<group>"; };
-		00C7A7D8289F190C005AC28D /* EventsListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsListVC.swift; sourceTree = "<group>"; };
-		00C7A7DA289F190C005AC28D /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		00C7A7DC289F190C005AC28D /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
-		00C7A7F8289F1CF9005AC28D /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
-		00C7A7FA289F2431005AC28D /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
-		00C7A7FB289F2431005AC28D /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
-		0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
-		212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.release.xcconfig"; sourceTree = "<group>"; };
-		73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.debug.xcconfig"; sourceTree = "<group>"; };
-		AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.release.xcconfig"; sourceTree = "<group>"; };
-		C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask_StubhubTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00917D5628A2656D0079C325 /* StubhubTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StubhubTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00917D5928A2656D0079C325 /* StubhubTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskApp.swift; sourceTree = "<group>"; };
+		00917D5D28A2656E0079C325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00917D6028A2656E0079C325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00917D6628A2656E0079C325 /* StubhubTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00917D6A28A2656E0079C325 /* StubhubTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskTests.swift; sourceTree = "<group>"; };
+		00917D7028A2656F0079C325 /* StubhubTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StubhubTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00917D7428A2656F0079C325 /* StubhubTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITests.swift; sourceTree = "<group>"; };
+		00917D7628A2656F0079C325 /* StubhubTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubhubTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00917D8428A26AD70079C325 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		00917D8728A26AD70079C325 /* JsonFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonFileManager.swift; sourceTree = "<group>"; };
+		00917D8A28A26AD70079C325 /* EventsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		00917D8C28A26AD70079C325 /* EventsInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsInjector.swift; sourceTree = "<group>"; };
+		00917D8F28A26AD80079C325 /* EventsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsRepository.swift; sourceTree = "<group>"; };
+		00917D9C28A26AD80079C325 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		00917D9D28A26AD80079C325 /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		00917DAF28A272490079C325 /* EventCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellView.swift; sourceTree = "<group>"; };
+		00917DB128A2858E0079C325 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		00917DB328A285F90079C325 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		00917DB828A288ED0079C325 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		00917DBA28A288FE0079C325 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		05AA5A04E9F0DAE510EDFA68 /* Pods_StubhubTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3481A97C654D963089977B /* Pods-StubhubTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15E45983CF94A00EA748725D /* Pods-StubhubTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTaskTests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTaskTests/Pods-StubhubTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		260A5EE89C917C246646472B /* Pods-StubhubTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.release.xcconfig"; sourceTree = "<group>"; };
+		3ED3781AE980E60306D68B40 /* Pods-StubhubTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask/Pods-StubhubTask.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB815C7730C70D4B4525914 /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C833B16D9303D5CD50B2315 /* Pods_StubhubTask_StubhubTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTask_StubhubTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC000FB161D2E96AE853599 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7A2F52E4C336F4A05C90C55 /* Pods_StubhubTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StubhubTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C7A77F289F176D005AC28D /* Frameworks */ = {
+		00917D5328A2656D0079C325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F9D863F1F387FB4B6E075E /* Pods_StubhubTask.framework in Frameworks */,
+				04D0A6D9DEFFC1109D7D7E56 /* Pods_StubhubTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A795289F176F005AC28D /* Frameworks */ = {
+		00917D6328A2656E0079C325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC3B6129E247961CF51D4EF /* Pods_StubhubTaskTests.framework in Frameworks */,
+				F4C5CDBDED6F7BB43A14FC1C /* Pods_StubhubTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A79F289F176F005AC28D /* Frameworks */ = {
+		00917D6D28A2656F0079C325 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B8322E18F5D4D6A870D7D7D /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */,
+				A06214B53B89928C4F2B4370 /* Pods_StubhubTask_StubhubTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C7A779289F176D005AC28D = {
+		00917D4D28A2656D0079C325 = {
 			isa = PBXGroup;
 			children = (
-				00C7A784289F176D005AC28D /* StubhubTask */,
-				00C7A79B289F176F005AC28D /* StubhubTaskTests */,
-				00C7A7A5289F176F005AC28D /* StubhubTaskUITests */,
-				00C7A783289F176D005AC28D /* Products */,
-				7020F74F964E0D907A03B724 /* Pods */,
-				1F830A8DF71BE0120D4CF8C4 /* Frameworks */,
+				00917D5828A2656D0079C325 /* StubhubTask */,
+				00917D6928A2656E0079C325 /* StubhubTaskTests */,
+				00917D7328A2656F0079C325 /* StubhubTaskUITests */,
+				00917D5728A2656D0079C325 /* Products */,
+				CBEDB4C4DC18B1ADB9016187 /* Pods */,
+				2A6B9356B338DCDF941B1407 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		00C7A783289F176D005AC28D /* Products */ = {
+		00917D5728A2656D0079C325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A782289F176D005AC28D /* StubhubTask.app */,
-				00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */,
-				00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */,
+				00917D5628A2656D0079C325 /* StubhubTask.app */,
+				00917D6628A2656E0079C325 /* StubhubTaskTests.xctest */,
+				00917D7028A2656F0079C325 /* StubhubTaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00C7A784289F176D005AC28D /* StubhubTask */ = {
+		00917D5828A2656D0079C325 /* StubhubTask */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A785289F176D005AC28D /* AppDelegate.swift */,
-				00C7A787289F176D005AC28D /* SceneDelegate.swift */,
-				00C7A7C0289F190C005AC28D /* Base */,
-				00C7A7D9289F190C005AC28D /* Models */,
-				00C7A7C3289F190C005AC28D /* Events */,
-				00C7A7BC289F190C005AC28D /* JsonFileManager */,
-				00C7A7B5289F190C005AC28D /* Utils */,
-				00C7A78B289F176D005AC28D /* Main.storyboard */,
-				00C7A7F8289F1CF9005AC28D /* events.json */,
-				00C7A78E289F176F005AC28D /* Assets.xcassets */,
-				00C7A790289F176F005AC28D /* LaunchScreen.storyboard */,
-				00C7A793289F176F005AC28D /* Info.plist */,
+				00917D5928A2656D0079C325 /* StubhubTaskApp.swift */,
+				00917D5D28A2656E0079C325 /* Assets.xcassets */,
+				00917DB728A288E10079C325 /* Base */,
+				00917D8828A26AD70079C325 /* Events */,
+				00917D8628A26AD70079C325 /* JsonFileManager */,
+				00917D9B28A26AD80079C325 /* Models */,
+				00917D8328A26AD70079C325 /* Utils */,
+				00917DB128A2858E0079C325 /* events.json */,
+				00917D5F28A2656E0079C325 /* Preview Content */,
 			);
 			path = StubhubTask;
 			sourceTree = "<group>";
 		};
-		00C7A79B289F176F005AC28D /* StubhubTaskTests */ = {
+		00917D5F28A2656E0079C325 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A79C289F176F005AC28D /* StubhubTaskTests.swift */,
+				00917D6028A2656E0079C325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00917D6928A2656E0079C325 /* StubhubTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				00917D6A28A2656E0079C325 /* StubhubTaskTests.swift */,
 			);
 			path = StubhubTaskTests;
 			sourceTree = "<group>";
 		};
-		00C7A7A5289F176F005AC28D /* StubhubTaskUITests */ = {
+		00917D7328A2656F0079C325 /* StubhubTaskUITests */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7A6289F176F005AC28D /* StubhubTaskUITests.swift */,
-				00C7A7A8289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift */,
+				00917D7428A2656F0079C325 /* StubhubTaskUITests.swift */,
+				00917D7628A2656F0079C325 /* StubhubTaskUITestsLaunchTests.swift */,
 			);
 			path = StubhubTaskUITests;
 			sourceTree = "<group>";
 		};
-		00C7A7B5289F190C005AC28D /* Utils */ = {
+		00917D8328A26AD70079C325 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7B7289F190C005AC28D /* Enums.swift */,
-				00C7A7B8289F190C005AC28D /* Observable.swift */,
+				00917DBA28A288FE0079C325 /* Observable.swift */,
+				00917D8428A26AD70079C325 /* Enums.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		00C7A7BC289F190C005AC28D /* JsonFileManager */ = {
+		00917D8628A26AD70079C325 /* JsonFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7BD289F190C005AC28D /* JsonFileManager.swift */,
+				00917D8728A26AD70079C325 /* JsonFileManager.swift */,
 			);
 			path = JsonFileManager;
 			sourceTree = "<group>";
 		};
-		00C7A7C0289F190C005AC28D /* Base */ = {
+		00917D8828A26AD70079C325 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7C1289F190C005AC28D /* BaseVC.swift */,
-				00C7A7C2289F190C005AC28D /* BaseViewModel.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		00C7A7C3289F190C005AC28D /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				00C7A7C4289F190C005AC28D /* ViewModels */,
-				00C7A7C6289F190C005AC28D /* DI */,
-				00C7A7C8289F190C005AC28D /* Repositories */,
-				00C7A7CD289F190C005AC28D /* Views */,
+				00917D8928A26AD70079C325 /* ViewModels */,
+				00917D8B28A26AD70079C325 /* DI */,
+				00917D8D28A26AD80079C325 /* Repositories */,
+				00917D9028A26AD80079C325 /* Views */,
 			);
 			path = Events;
 			sourceTree = "<group>";
 		};
-		00C7A7C4289F190C005AC28D /* ViewModels */ = {
+		00917D8928A26AD70079C325 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7C5289F190C005AC28D /* EventsViewModel.swift */,
+				00917D8A28A26AD70079C325 /* EventsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		00C7A7C6289F190C005AC28D /* DI */ = {
+		00917D8B28A26AD70079C325 /* DI */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7C7289F190C005AC28D /* EventsInjector.swift */,
+				00917D8C28A26AD70079C325 /* EventsInjector.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
 		};
-		00C7A7C8289F190C005AC28D /* Repositories */ = {
+		00917D8D28A26AD80079C325 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7C9289F190C005AC28D /* EventsRepository */,
+				00917D8E28A26AD80079C325 /* EventsRepository */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
 		};
-		00C7A7C9289F190C005AC28D /* EventsRepository */ = {
+		00917D8E28A26AD80079C325 /* EventsRepository */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7CA289F190C005AC28D /* EventsRepository.swift */,
+				00917D8F28A26AD80079C325 /* EventsRepository.swift */,
 			);
 			path = EventsRepository;
 			sourceTree = "<group>";
 		};
-		00C7A7CD289F190C005AC28D /* Views */ = {
+		00917D9028A26AD80079C325 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7CE289F190C005AC28D /* Events.storyboard */,
-				00C7A7D2289F190C005AC28D /* EventsList */,
+				00917D9328A26AD80079C325 /* EventsList */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		00C7A7D2289F190C005AC28D /* EventsList */ = {
+		00917D9328A26AD80079C325 /* EventsList */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7D3289F190C005AC28D /* Cells */,
-				00C7A7D8289F190C005AC28D /* EventsListVC.swift */,
+				00917DB328A285F90079C325 /* EventsView.swift */,
+				00917DAE28A272330079C325 /* CellsView */,
 			);
 			path = EventsList;
 			sourceTree = "<group>";
 		};
-		00C7A7D3289F190C005AC28D /* Cells */ = {
+		00917D9B28A26AD80079C325 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				00C7A7FA289F2431005AC28D /* EventCell.swift */,
-				00C7A7FB289F2431005AC28D /* EventCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		00C7A7D9289F190C005AC28D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				00C7A7DA289F190C005AC28D /* Event.swift */,
-				00C7A7DC289F190C005AC28D /* Child.swift */,
+				00917D9C28A26AD80079C325 /* Event.swift */,
+				00917D9D28A26AD80079C325 /* Child.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1F830A8DF71BE0120D4CF8C4 /* Frameworks */ = {
+		00917DAE28A272330079C325 /* CellsView */ = {
 			isa = PBXGroup;
 			children = (
-				212D0534031F6E8A56E74471 /* Pods_StubhubTask.framework */,
-				C3C498EDBC343797CF337B0A /* Pods_StubhubTask_StubhubTaskUITests.framework */,
-				3635C57E09A5787D9908A861 /* Pods_StubhubTaskTests.framework */,
+				00917DAF28A272490079C325 /* EventCellView.swift */,
+			);
+			path = CellsView;
+			sourceTree = "<group>";
+		};
+		00917DB728A288E10079C325 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				00917DB828A288ED0079C325 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2A6B9356B338DCDF941B1407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AA5A04E9F0DAE510EDFA68 /* Pods_StubhubTask.framework */,
+				7C833B16D9303D5CD50B2315 /* Pods_StubhubTask_StubhubTaskUITests.framework */,
+				D7A2F52E4C336F4A05C90C55 /* Pods_StubhubTaskTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7020F74F964E0D907A03B724 /* Pods */ = {
+		CBEDB4C4DC18B1ADB9016187 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */,
-				5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */,
-				55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */,
-				2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */,
-				0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */,
-				AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */,
+				3ED3781AE980E60306D68B40 /* Pods-StubhubTask.debug.xcconfig */,
+				260A5EE89C917C246646472B /* Pods-StubhubTask.release.xcconfig */,
+				6FB815C7730C70D4B4525914 /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */,
+				7FC000FB161D2E96AE853599 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */,
+				0A3481A97C654D963089977B /* Pods-StubhubTaskTests.debug.xcconfig */,
+				15E45983CF94A00EA748725D /* Pods-StubhubTaskTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -308,15 +299,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00C7A781289F176D005AC28D /* StubhubTask */ = {
+		00917D5528A2656D0079C325 /* StubhubTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C7A7AC289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTask" */;
+			buildConfigurationList = 00917D7A28A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTask" */;
 			buildPhases = (
-				1D1683014154D7E0C6F2C90D /* [CP] Check Pods Manifest.lock */,
-				00C7A77E289F176D005AC28D /* Sources */,
-				00C7A77F289F176D005AC28D /* Frameworks */,
-				00C7A780289F176D005AC28D /* Resources */,
-				34F95251078084F210D54A5D /* [CP] Embed Pods Frameworks */,
+				76548C8E6ADBC7ADC6770E82 /* [CP] Check Pods Manifest.lock */,
+				00917D5228A2656D0079C325 /* Sources */,
+				00917D5328A2656D0079C325 /* Frameworks */,
+				00917D5428A2656D0079C325 /* Resources */,
+				0D201AFF35BC07274B0733FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,72 +315,72 @@
 			);
 			name = StubhubTask;
 			productName = StubhubTask;
-			productReference = 00C7A782289F176D005AC28D /* StubhubTask.app */;
+			productReference = 00917D5628A2656D0079C325 /* StubhubTask.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00C7A797289F176F005AC28D /* StubhubTaskTests */ = {
+		00917D6528A2656E0079C325 /* StubhubTaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C7A7AF289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */;
+			buildConfigurationList = 00917D7D28A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */;
 			buildPhases = (
-				EB0B827343EF2F460C587C9A /* [CP] Check Pods Manifest.lock */,
-				00C7A794289F176F005AC28D /* Sources */,
-				00C7A795289F176F005AC28D /* Frameworks */,
-				00C7A796289F176F005AC28D /* Resources */,
+				1B865E6A985E2B19A4D46A05 /* [CP] Check Pods Manifest.lock */,
+				00917D6228A2656E0079C325 /* Sources */,
+				00917D6328A2656E0079C325 /* Frameworks */,
+				00917D6428A2656E0079C325 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00C7A79A289F176F005AC28D /* PBXTargetDependency */,
+				00917D6828A2656E0079C325 /* PBXTargetDependency */,
 			);
 			name = StubhubTaskTests;
 			productName = StubhubTaskTests;
-			productReference = 00C7A798289F176F005AC28D /* StubhubTaskTests.xctest */;
+			productReference = 00917D6628A2656E0079C325 /* StubhubTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		00C7A7A1289F176F005AC28D /* StubhubTaskUITests */ = {
+		00917D6F28A2656F0079C325 /* StubhubTaskUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C7A7B2289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */;
+			buildConfigurationList = 00917D8028A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */;
 			buildPhases = (
-				70FA52D93BAF478E05F78194 /* [CP] Check Pods Manifest.lock */,
-				00C7A79E289F176F005AC28D /* Sources */,
-				00C7A79F289F176F005AC28D /* Frameworks */,
-				00C7A7A0289F176F005AC28D /* Resources */,
-				D155CE4526B65B4C7BC84170 /* [CP] Embed Pods Frameworks */,
+				3B320C27D9847B5AB18F26E9 /* [CP] Check Pods Manifest.lock */,
+				00917D6C28A2656F0079C325 /* Sources */,
+				00917D6D28A2656F0079C325 /* Frameworks */,
+				00917D6E28A2656F0079C325 /* Resources */,
+				0869E46EC21BC05B61219688 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00C7A7A4289F176F005AC28D /* PBXTargetDependency */,
+				00917D7228A2656F0079C325 /* PBXTargetDependency */,
 			);
 			name = StubhubTaskUITests;
 			productName = StubhubTaskUITests;
-			productReference = 00C7A7A2289F176F005AC28D /* StubhubTaskUITests.xctest */;
+			productReference = 00917D7028A2656F0079C325 /* StubhubTaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00C7A77A289F176D005AC28D /* Project object */ = {
+		00917D4E28A2656D0079C325 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					00C7A781289F176D005AC28D = {
+					00917D5528A2656D0079C325 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					00C7A797289F176F005AC28D = {
+					00917D6528A2656E0079C325 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 00C7A781289F176D005AC28D;
+						TestTargetID = 00917D5528A2656D0079C325;
 					};
-					00C7A7A1289F176F005AC28D = {
+					00917D6F28A2656F0079C325 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 00C7A781289F176D005AC28D;
+						TestTargetID = 00917D5528A2656D0079C325;
 					};
 				};
 			};
-			buildConfigurationList = 00C7A77D289F176D005AC28D /* Build configuration list for PBXProject "StubhubTask" */;
+			buildConfigurationList = 00917D5128A2656D0079C325 /* Build configuration list for PBXProject "StubhubTask" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -397,40 +388,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 00C7A779289F176D005AC28D;
-			productRefGroup = 00C7A783289F176D005AC28D /* Products */;
+			mainGroup = 00917D4D28A2656D0079C325;
+			productRefGroup = 00917D5728A2656D0079C325 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00C7A781289F176D005AC28D /* StubhubTask */,
-				00C7A797289F176F005AC28D /* StubhubTaskTests */,
-				00C7A7A1289F176F005AC28D /* StubhubTaskUITests */,
+				00917D5528A2656D0079C325 /* StubhubTask */,
+				00917D6528A2656E0079C325 /* StubhubTaskTests */,
+				00917D6F28A2656F0079C325 /* StubhubTaskUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00C7A780289F176D005AC28D /* Resources */ = {
+		00917D5428A2656D0079C325 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7A792289F176F005AC28D /* LaunchScreen.storyboard in Resources */,
-				00C7A7F9289F1CF9005AC28D /* events.json in Resources */,
-				00C7A78F289F176F005AC28D /* Assets.xcassets in Resources */,
-				00C7A78D289F176D005AC28D /* Main.storyboard in Resources */,
-				00C7A7EB289F190D005AC28D /* Events.storyboard in Resources */,
-				00C7A7FD289F2431005AC28D /* EventCell.xib in Resources */,
+				00917D6128A2656E0079C325 /* Preview Assets.xcassets in Resources */,
+				00917DB228A2858E0079C325 /* events.json in Resources */,
+				00917D5E28A2656E0079C325 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A796289F176F005AC28D /* Resources */ = {
+		00917D6428A2656E0079C325 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A7A0289F176F005AC28D /* Resources */ = {
+		00917D6E28A2656F0079C325 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,68 +428,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D1683014154D7E0C6F2C90D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		34F95251078084F210D54A5D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70FA52D93BAF478E05F78194 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-StubhubTaskUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D155CE4526B65B4C7BC84170 /* [CP] Embed Pods Frameworks */ = {
+		0869E46EC21BC05B61219688 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,7 +445,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StubhubTask-StubhubTaskUITests/Pods-StubhubTask-StubhubTaskUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB0B827343EF2F460C587C9A /* [CP] Check Pods Manifest.lock */ = {
+		0D201AFF35BC07274B0733FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StubhubTask/Pods-StubhubTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B865E6A985E2B19A4D46A05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,91 +484,106 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3B320C27D9847B5AB18F26E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-StubhubTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76548C8E6ADBC7ADC6770E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StubhubTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00C7A77E289F176D005AC28D /* Sources */ = {
+		00917D5228A2656D0079C325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7A7E6289F190D005AC28D /* BaseViewModel.swift in Sources */,
-				00C7A7F4289F190D005AC28D /* Child.swift in Sources */,
-				00C7A7DF289F190D005AC28D /* Enums.swift in Sources */,
-				00C7A7E9289F190D005AC28D /* EventsRepository.swift in Sources */,
-				00C7A7E0289F190D005AC28D /* Observable.swift in Sources */,
-				00C7A7FC289F2431005AC28D /* EventCell.swift in Sources */,
-				00C7A786289F176D005AC28D /* AppDelegate.swift in Sources */,
-				00C7A7E7289F190D005AC28D /* EventsViewModel.swift in Sources */,
-				00C7A7E3289F190D005AC28D /* JsonFileManager.swift in Sources */,
-				00C7A788289F176D005AC28D /* SceneDelegate.swift in Sources */,
-				00C7A7F1289F190D005AC28D /* EventsListVC.swift in Sources */,
-				00C7A7E5289F190D005AC28D /* BaseVC.swift in Sources */,
-				00C7A7F2289F190D005AC28D /* Event.swift in Sources */,
-				00C7A7E8289F190D005AC28D /* EventsInjector.swift in Sources */,
+				00917DBB28A288FE0079C325 /* Observable.swift in Sources */,
+				00917DA028A26AD80079C325 /* JsonFileManager.swift in Sources */,
+				00917DA228A26AD80079C325 /* EventsInjector.swift in Sources */,
+				00917DB028A272490079C325 /* EventCellView.swift in Sources */,
+				00917DA128A26AD80079C325 /* EventsViewModel.swift in Sources */,
+				00917DB928A288ED0079C325 /* BaseViewModel.swift in Sources */,
+				00917D9E28A26AD80079C325 /* Enums.swift in Sources */,
+				00917DA328A26AD80079C325 /* EventsRepository.swift in Sources */,
+				00917DB428A285F90079C325 /* EventsView.swift in Sources */,
+				00917D5A28A2656D0079C325 /* StubhubTaskApp.swift in Sources */,
+				00917DAB28A26AD80079C325 /* Child.swift in Sources */,
+				00917DAA28A26AD80079C325 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A794289F176F005AC28D /* Sources */ = {
+		00917D6228A2656E0079C325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7A79D289F176F005AC28D /* StubhubTaskTests.swift in Sources */,
+				00917D6B28A2656E0079C325 /* StubhubTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00C7A79E289F176F005AC28D /* Sources */ = {
+		00917D6C28A2656F0079C325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7A7A7289F176F005AC28D /* StubhubTaskUITests.swift in Sources */,
-				00C7A7A9289F176F005AC28D /* StubhubTaskUITestsLaunchTests.swift in Sources */,
+				00917D7528A2656F0079C325 /* StubhubTaskUITests.swift in Sources */,
+				00917D7728A2656F0079C325 /* StubhubTaskUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00C7A79A289F176F005AC28D /* PBXTargetDependency */ = {
+		00917D6828A2656E0079C325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00C7A781289F176D005AC28D /* StubhubTask */;
-			targetProxy = 00C7A799289F176F005AC28D /* PBXContainerItemProxy */;
+			target = 00917D5528A2656D0079C325 /* StubhubTask */;
+			targetProxy = 00917D6728A2656E0079C325 /* PBXContainerItemProxy */;
 		};
-		00C7A7A4289F176F005AC28D /* PBXTargetDependency */ = {
+		00917D7228A2656F0079C325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00C7A781289F176D005AC28D /* StubhubTask */;
-			targetProxy = 00C7A7A3289F176F005AC28D /* PBXContainerItemProxy */;
+			target = 00917D5528A2656D0079C325 /* StubhubTask */;
+			targetProxy = 00917D7128A2656F0079C325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		00C7A78B289F176D005AC28D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00C7A78C289F176D005AC28D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		00C7A790289F176F005AC28D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00C7A791289F176F005AC28D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		00C7A7CE289F190C005AC28D /* Events.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00C7A7CF289F190C005AC28D /* Base */,
-			);
-			name = Events.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		00C7A7AA289F176F005AC28D /* Debug */ = {
+		00917D7828A2656F0079C325 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -684,7 +643,7 @@
 			};
 			name = Debug;
 		};
-		00C7A7AB289F176F005AC28D /* Release */ = {
+		00917D7928A2656F0079C325 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -738,19 +697,20 @@
 			};
 			name = Release;
 		};
-		00C7A7AD289F176F005AC28D /* Debug */ = {
+		00917D7B28A2656F0079C325 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73700D8B57850E5C2B038533 /* Pods-StubhubTask.debug.xcconfig */;
+			baseConfigurationReference = 3ED3781AE980E60306D68B40 /* Pods-StubhubTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StubhubTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StubhubTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -766,19 +726,20 @@
 			};
 			name = Debug;
 		};
-		00C7A7AE289F176F005AC28D /* Release */ = {
+		00917D7C28A2656F0079C325 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C56A0ADAEED0FE503C237DB /* Pods-StubhubTask.release.xcconfig */;
+			baseConfigurationReference = 260A5EE89C917C246646472B /* Pods-StubhubTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StubhubTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StubhubTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -794,9 +755,9 @@
 			};
 			name = Release;
 		};
-		00C7A7B0289F176F005AC28D /* Debug */ = {
+		00917D7E28A2656F0079C325 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CCAF8DAE8678F970D388B78 /* Pods-StubhubTaskTests.debug.xcconfig */;
+			baseConfigurationReference = 0A3481A97C654D963089977B /* Pods-StubhubTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -814,9 +775,9 @@
 			};
 			name = Debug;
 		};
-		00C7A7B1289F176F005AC28D /* Release */ = {
+		00917D7F28A2656F0079C325 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFB697139B952D8571A43BE8 /* Pods-StubhubTaskTests.release.xcconfig */;
+			baseConfigurationReference = 15E45983CF94A00EA748725D /* Pods-StubhubTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -834,9 +795,9 @@
 			};
 			name = Release;
 		};
-		00C7A7B3289F176F005AC28D /* Debug */ = {
+		00917D8128A2656F0079C325 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55909D75420A12E10BDBC09D /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */;
+			baseConfigurationReference = 6FB815C7730C70D4B4525914 /* Pods-StubhubTask-StubhubTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -852,9 +813,9 @@
 			};
 			name = Debug;
 		};
-		00C7A7B4289F176F005AC28D /* Release */ = {
+		00917D8228A2656F0079C325 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB752ED417FCAD8E0158136 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */;
+			baseConfigurationReference = 7FC000FB161D2E96AE853599 /* Pods-StubhubTask-StubhubTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -873,43 +834,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00C7A77D289F176D005AC28D /* Build configuration list for PBXProject "StubhubTask" */ = {
+		00917D5128A2656D0079C325 /* Build configuration list for PBXProject "StubhubTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C7A7AA289F176F005AC28D /* Debug */,
-				00C7A7AB289F176F005AC28D /* Release */,
+				00917D7828A2656F0079C325 /* Debug */,
+				00917D7928A2656F0079C325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C7A7AC289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTask" */ = {
+		00917D7A28A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C7A7AD289F176F005AC28D /* Debug */,
-				00C7A7AE289F176F005AC28D /* Release */,
+				00917D7B28A2656F0079C325 /* Debug */,
+				00917D7C28A2656F0079C325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C7A7AF289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */ = {
+		00917D7D28A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C7A7B0289F176F005AC28D /* Debug */,
-				00C7A7B1289F176F005AC28D /* Release */,
+				00917D7E28A2656F0079C325 /* Debug */,
+				00917D7F28A2656F0079C325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C7A7B2289F176F005AC28D /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */ = {
+		00917D8028A2656F0079C325 /* Build configuration list for PBXNativeTarget "StubhubTaskUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C7A7B3289F176F005AC28D /* Debug */,
-				00C7A7B4289F176F005AC28D /* Release */,
+				00917D8128A2656F0079C325 /* Debug */,
+				00917D8228A2656F0079C325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00C7A77A289F176D005AC28D /* Project object */;
+	rootObject = 00917D4E28A2656D0079C325 /* Project object */;
 }

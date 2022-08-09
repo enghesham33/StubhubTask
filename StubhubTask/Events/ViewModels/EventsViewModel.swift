@@ -7,10 +7,12 @@
 
 import Foundation
 
-class EventsViewModel: BaseViewModel {
+class EventsViewModel: BaseViewModel, ObservableObject {
     
     var eventsList = Observable<[Event]>([])
     var filteredEventsList = Observable<[Event]>([])
+    @Published private(set) var events: [Event] = []
+    @Published private(set) var filteredEvents: [Event] = []
     
     init(repository: EventsRepository) {
         self.repository = repository
@@ -20,10 +22,22 @@ class EventsViewModel: BaseViewModel {
     var filterOperation = FilterOperation.OR
     var isFilterApplied = false
     
+    func getEvents() async {
+        loading.value = true
+        repository.getEventsList { [weak self] events in
+            self?.events = events
+            self?.loading.value = false
+        } faildHandler: { [weak self] error in
+            self?.error.value = error ?? ""
+            self?.loading.value = false
+        }
+    }
+    
     func getEvents() {
         loading.value = true
         repository.getEventsList { [weak self] events in
             self?.eventsList.value = events
+            self?.events = events
             self?.loading.value = false
         } faildHandler: { [weak self] error in
             self?.error.value = error ?? ""
@@ -34,7 +48,7 @@ class EventsViewModel: BaseViewModel {
     func applyFilters(city: String, price: String) {
         if !city.isEmpty || !price.isEmpty {
             isFilterApplied = true
-            filteredEventsList.value = eventsList.value.filter({ event in
+            filteredEvents = events.filter({ event in
                 if !city.isEmpty && !price.isEmpty {
                     let price = Int(price) ?? 0
                     switch filterOperation {
@@ -57,6 +71,6 @@ class EventsViewModel: BaseViewModel {
     
     func clearFilter() {
         isFilterApplied = false
-        filteredEventsList.value = []
+        filteredEvents = []
     }
 }

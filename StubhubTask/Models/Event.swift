@@ -5,8 +5,10 @@
 //  Created by Hesham Donia on 06/08/2022.
 //
 
+import Combine
 
-struct Event : Codable {
+
+class Event : Codable, ObservableObject, Identifiable {
 
     let city : String?
     let date : String?
@@ -25,5 +27,21 @@ struct Event : Codable {
         case name = "name"
         case price = "price"
         case venueName = "venueName"
+    }
+    
+    init(city : String?,
+        date : String?,
+        distanceFromVenue : Float?,
+        id : Int?,
+        name : String?,
+        price : Int?,
+         venueName : String?) {
+        self.city = city
+        self.date = date
+        self.distanceFromVenue = distanceFromVenue
+        self.id = id
+        self.name = name
+        self.price = price
+        self.venueName = venueName
     }
 }
