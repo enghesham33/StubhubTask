@@ -9,8 +9,8 @@ import Foundation
 
 class EventsViewModel: BaseViewModel, ObservableObject {
     
-    @Published private(set) var events: [Event] = []
-    @Published private(set) var filteredEvents: [Event] = []
+    private var events: [Event] = []
+    @Published var filteredEvents: [Event] = []
     
     init(repository: EventsRepository) {
         self.repository = repository
@@ -18,45 +18,56 @@ class EventsViewModel: BaseViewModel, ObservableObject {
     
     private let repository: EventsRepository
     var filterOperation = FilterOperation.OR
-    var isFilterApplied = false
     
     func getEvents() {
-        loading = true
         repository.getEventsList { [weak self] events in
             self?.events = events
-            self?.loading = false
+            self?.filteredEvents = events
         } faildHandler: { [weak self] error in
             self?.error = error ?? ""
-            self?.loading = false
         }
     }
     
     func applyFilters(city: String, price: String) {
-        if !city.isEmpty || !price.isEmpty {
-            isFilterApplied = true
-            filteredEvents = events.filter({ event in
-                if !city.isEmpty && !price.isEmpty {
-                    let price = Int(price) ?? 0
-                    switch filterOperation {
-                    case .AND:
-                        return event.city?.lowercased().contains(city.lowercased()) ?? false && (event.price ?? 0) <= price
-                    case .OR:
-                        return event.city?.lowercased().contains(city.lowercased()) ?? false || (event.price ?? 0) <= price
-                    }
-                } else if !city.isEmpty {
-                    return event.city?.lowercased().contains(city.lowercased()) ?? false
-                } else {
-                    let price = Int(price) ?? 0
-                    return (event.price ?? 0) <= price
-                }
-            })
-        } else {
+        
+        if city.isEmpty && price.isEmpty {
             clearFilter()
+        } else {
+            filteredEvents.removeAll()
+            switch filterOperation {
+            case .AND:
+                if !city.isEmpty {
+                    filteredEvents = applyCityFilter(events: events, city: city)
+                }
+                if !price.isEmpty {
+                    filteredEvents = applyPriceFilter(events: filteredEvents, price: price)
+                }
+                
+            case .OR:
+                if !city.isEmpty {
+                    filteredEvents = applyCityFilter(events: events, city: city)
+                }
+                if !price.isEmpty {
+                    filteredEvents.append(contentsOf: applyPriceFilter(events: events, price: price))
+                }
+            }
         }
     }
     
     func clearFilter() {
-        isFilterApplied = false
-        filteredEvents = []
+        filteredEvents = events
+    }
+    
+    private func applyCityFilter(events: [Event], city: String) -> [Event] {
+        return events.filter { event in
+            event.city?.lowercased().contains(city.lowercased()) ?? false
+        }
+    }
+    
+    private func applyPriceFilter(events: [Event], price: String) -> [Event] {
+        let price = Int(price) ?? 0
+        return events.filter { event in
+            (event.price ?? 0) <= price
+        }
     }
 }

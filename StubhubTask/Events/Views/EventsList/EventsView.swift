@@ -102,7 +102,7 @@ struct EventsView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 Spacer().frame(width: 16)
             }
-            List(viewModel.isFilterApplied ? viewModel.filteredEvents : viewModel.events) { event in
+            List(viewModel.filteredEvents) { event in
                 EventCellView(event: event)
             }
         })

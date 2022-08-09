@@ -9,22 +9,20 @@ import SwiftUI
 
 struct EventCellView: View {
     
-    @ObservedObject var event: Event
+    var event: Event
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 8, content: {
             Text(event.name ?? "")
                 .font(.body)
                 .frame(maxWidth: .infinity, alignment: .leading)
-            Spacer().frame( height: 8)
             Text(event.city ?? "")
                 .font(.body)
                 .frame(maxWidth: .infinity, alignment: .leading)
-            Spacer().frame (height: 8)
             Text("\(event.price ?? 0)$")
                 .font(.body)
                 .frame(maxWidth: .infinity, alignment: .leading)
-        }
+        })
     }
 }
 

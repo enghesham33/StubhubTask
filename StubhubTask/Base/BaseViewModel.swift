@@ -8,6 +8,5 @@
 import Foundation
 
 class BaseViewModel {
-    @Published var loading = false
     @Published var error = ""
 }
